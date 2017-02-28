@@ -15,7 +15,8 @@
     ```
     {
         "directory": "public/vendor"
-    }```
+    }
+    ```
     * `bower init`
     * Install client side dependencies with bower
         * bootstrap
@@ -36,3 +37,7 @@
     * Connection path mongodb://`dbUser`:`dbPwd`@`dbhost`:`dbPort`/`dbName`
 0. Adding Stylus
 0. DONE
+
+### To use this MEAN Walking Skeleton
+Step 1] `npm install`<br>
+Step 2] `bower install`<br>
