@@ -3,12 +3,13 @@ html
     head
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        base(href="/")
         title BOOKitIN
         link(rel='stylesheet', type='text/css', href='/vendor/bootstrap/dist/css/bootstrap.min.css')
         link(rel='stylesheet', type='text/css', href='/vendor/toastr/toastr.min.css')
         link(rel='stylesheet', type='text/css', href='/css/style.css')
         link(rel="shortcut icon" href="/img/favicon.png")
-    body
+    body(ng-app='app')
         .container
             .row
                 block main-content
@@ -16,6 +17,6 @@ html
             .col-md-12.text-center
                 a(href="https://amolwankhede.com",target="_blank")
                     img#logo(src="/img/aw-footer.png" alt="AW Logo")
-                | 2017 Developed by
+                | 2017 Developed by 
                 a#me(href="https://amolwankhede.com", target="_blank") Amol Wankhede
         include scripts
