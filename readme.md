@@ -34,4 +34,5 @@
 0. MongoDB
     * `npm install mongoose --save`
     * Connection path mongodb://`dbUser`:`dbPwd`@`dbhost`:`dbPort`/`dbName`
+0. Adding Stylus
 0. DONE
